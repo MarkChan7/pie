@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pie View</string>
+
+    <string name="pie_share_start">分享中...</string>
+    <string name="pie_share_cancel">分享取消</string>
+    <string name="pie_share_success">分享成功</string>
+    <string name="pie_share_error">分享失败</string>
+    <string name="pie_share_image_lost">图片已丢失，分享失败</string>
+    <string name="pie_share_error_deny">分享被拒绝</string>
+    <string name="pie_share_pic_empty">图片不能为空</string>
+
+    <string name="pie_share_social_notwork_weibo">微博</string>
+    <string name="pie_share_social_notwork_wechat">微信</string>
+    <string name="pie_share_social_notwork_wechat_moment">朋友圈</string>
+    <string name="pie_share_social_notwork_qq">QQ</string>
+    <string name="pie_share_social_notwork_qzone">QQ空间</string>
+    <string name="pie_share_social_notwork_more">其他</string>
+    <string name="pie_share_social_notwork_copy">复制链接</string>
+</resources>

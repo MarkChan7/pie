@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wechat</string>
+    <string name="pie_default_share_title">分享</string>
+    <string name="pie_default_share_target_url">http://www.poco.cn</string>
+</resources>

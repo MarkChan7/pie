@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pie</string>
+
+    <string name="pie_share_copy_success">复制成功</string>
+    <string name="pie_share_compressing_image">正在处理图片...</string>
+    <string name="pie_share_compress_image_failed">图片处理失败，请稍后重试</string>
+    <string name="pie_share_more_title">分享</string>
+</resources>
