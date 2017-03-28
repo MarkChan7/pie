@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "25.0.0"
+    buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "cn.poco.jane"
         minSdkVersion 15
@@ -41,21 +41,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    signingConfigs {
-        debug {
-            storeFile file('poco365.keystore') // 签名文件路径，自行修改
-            storePassword "poco365"
-            keyAlias "poco365"
-            keyPassword "poco365"
-        }
-        release {
-            storeFile file('poco365.keystore')
-            storePassword "poco365"
-            keyAlias "poco365"
-            keyPassword "poco365"
-        }
-    }
 }
 
 dependencies {
@@ -63,7 +48,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
     compile 'com.jakewharton.timber:timber:4.3.1'
     compile project(':pie')
