@@ -1,1 +1,6 @@
-include ':sample', ':pie', ':pie4wechat', ':pie4qq', ':pie4weibo', ':pie4view'
+include ':sample'
+include ':pie'
+include ':pieview'
+include ':wechatpie'
+include ':qqpie'
+include ':weibopie'
